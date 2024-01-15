@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    .flex-box{
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+    .grid-contrainer{
+      display: grid;
+      width: 748px;
+      height: 748px;
+      gap: 9px;
+      background-color: black;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+    }
+    .Red{
+      background-color: red;
+    }
+    .White{
+      background-color: antiquewhite;
+      grid-column: span 3;
+    }
+    .White2{
+      background-color: antiquewhite;
+      grid-row: span 2;
+    }
+    .White3{
+      background-color: antiquewhite;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    .Blue{
+      background-color: #004592;
+      border-bottom: 10px solid;
+    }
+    .White4{
+      background-color: antiquewhite;
+      grid-row: span 2;
+    }
+    .White5{
+      background-color: antiquewhite;
+    }
+    .Yellow{
+      background-color: #F9D01E;
+    }
+    .Black{
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="flex-box">
+  <div class="grid-contrainer">
+    <div class="Box Red"></div>
+    <div class="Box White"></div>
+    <div class="Box White2"></div>
+    <div class="Box White3"></div>
+    <div class="Box Blue"></div>
+    <div class="Box White4"></div>
+    <div class="Box White5"></div>
+    <div class="Box Yellow"></div>
+    <div class="Box Black"></div>
+  </div>
+</div>
+</body>
+
+</html>
