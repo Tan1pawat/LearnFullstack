@@ -1,0 +1,42 @@
+.mynavbar{
+    background-color: #F2F597;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #0A1D56, #492E87, #37B5B6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.introme{
+  font-family: 'Chakra Petch', sans-serif;  
+  color: #F2F597;
+  font-size: 4rem;
+}
+
+.normaltext{
+    font-family: 'Chakra Petch', sans-serif;  
+}
+.text{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #F2F597;  
+}
+.firstpic{
+    border-radius: 5%;
+    object-fit: cover;
+}
+.button{
+    background-color: #0A1D56;
+    color: white;
+}
